@@ -3,10 +3,12 @@ package com.example.mvvm.model
 class QuoteProvider {
     companion object {
 
+        // Function random to get single quote
         fun random():QuoteModel{
             val position = (quote.indices).random()
             return quote[position]
         }
+        // List de QuoteModels
         private val quote = listOf<QuoteModel>(
             QuoteModel(
                 quote = "It’s not a bug. It’s an undocumented feature!",
