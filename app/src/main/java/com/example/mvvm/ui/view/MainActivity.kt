@@ -1,4 +1,4 @@
-package com.example.mvvm.view
+package com.example.mvvm.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 // Import for ActivityMainBinding
 import com.example.mvvm.databinding.ActivityMainBinding
-import com.example.mvvm.viewModel.QuoteViewModel
+import com.example.mvvm.ui.viewModel.QuoteViewModel
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

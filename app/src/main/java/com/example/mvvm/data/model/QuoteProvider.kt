@@ -1,10 +1,10 @@
-package com.example.mvvm.model
+package com.example.mvvm.data.model
 
 class QuoteProvider {
     companion object {
 
         // Function random to get single quote
-        fun random():QuoteModel{
+        fun random(): QuoteModel {
             val position = (quote.indices).random()
             return quote[position]
         }
